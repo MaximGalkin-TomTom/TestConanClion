@@ -1,3 +1,9 @@
+# any build folder
+*build*
+
+# CLion cache files
+.idea
+
 # Prerequisites
 *.d
 
