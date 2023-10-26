@@ -9,6 +9,8 @@ void print(boost::any value) {
 }
 
 int main() {
+    std::string str("Hello, World!");
+    print(str);
     print(std::string("This is a string"));
     print(42);
 }
