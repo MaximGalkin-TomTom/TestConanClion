@@ -7,7 +7,7 @@ class TestConanClion(ConanFile):
     settings = "os", "compiler", "build_type", "arch", "toolchain"
 
     requires = (
-        "boost/[>=0.1.4+1.70.0]@tomtom/master"
+        "boost/[>=0.1.4+1.70.0]@tomtom/stable"
     )
 
     generators = "cmake", "cmake_find_package"
